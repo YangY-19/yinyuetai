@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>play</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="css/play.css" />
+  <link rel="stylesheet" href="css/swiper-4.1.0.min.css" />
+  <link rel="stylesheet" href="css/font-awesome-4.7.0\css\font-awesome.min.css"><!--字体图标 -->
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+  <link rel="search" type="application/opensearchdescription+xml" title="音悦台MV搜索" href="/glossary/yyt_glossary.xml"/>
+  <style media="screen">
+    .swiper-container {
+      width: 200px;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      width: 200px;
+      font-size: 18px;
+      height: auto;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 10px;
+      margin-left: 2px;
+      margin-top: -20px
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 头部导航 搜索 登录 -->
+  <div class="module-header ">
+    <div class="heard">
+      <div class="logo">
+        <img src="http://img4.c.yinyuetai.com/others/admin/171030/0/22bf723198badac8e45d0be95d7bc291_0x0.png" alt="">
+      </div>
+      <img class="maopaogif" src="images/maopao.gif" alt="">
+      <!-- 导航 -->
+      <ul class="font-nav">
+        <li><a style="color:#52e2c0" href="paly.html">首页</a></li>
+        <li><a href="paly.html">MV</a></li>
+        <li class="channel">
+          <a href="paly.html">
+                        频道
+                       <i class=" fa fa-caret-down"></i>
+                    </a>
+          <ul class="sub-ment">
+            <li><a href="paly.html">韩流频道</a></li>
+            <li><a href="paly.html">华语频道</a></li>
+            <li><a href="paly.html">欧美频道</a></li>
+            <li><a href="paly.html">日语频道</a></li>
+            <li><a href="paly.html">粉丝聚焦</a></li>
+          </ul>
+        </li>
+        <li><a href="paly.html">V榜</a></li>
+        <li><a href="paly.html">娱乐</a></li>
+        <li><a href="paly.html">商城</a></li>
+        <li><a href="paly.html">众筹</a></li>
+        <li><a href="paly.html">民俗文化</a></li>
+      </ul>
+      <form action="">
+        <div class="search-input">
+          <input class="input" name="s" type="text" autocomplete="off" placeholder="金刚狼十七年催泪混剪" value="">
+          <button type="button" name="button"></button>
+        </div>
+
+      </form>
+      <div class="vip">
+        <a href="paly.html" title="vip会员">
+          <div class="icon-vip"></div>
+        </a>
+      </div>
+      <div class="client">
+        <a href="paly.html">
+          <div class="icon-client"></div>
+          <i class=" fa fa-caret-down"></i>
+          <ul class="client-nav">
+            <li>
+              <a href="paly.html">韩流频道</a>
+            </li>
+            <li>
+              <a href="paly.html">华语频道</a>
+            </li>
+            <li>
+              <a href="paly.html">欧美频道</a>
+            </li>
+          </ul>
+        </a>
+      </div>
+      <div class="upload">
+        <a href="paly.html">
+          <div class="icon-upload"></div>
+          <i class="fa fa-caret-down"></i>
+          <ul class="upload-nav">
+            <li>
+              <a href="paly.html">韩流频道</a>
+            </li>
+            <li>
+              <a href="paly.html">华语频道</a>
+            </li>
+            <li>
+              <a href="paly.html">欧美频道</a>
+            </li>
+          </ul>
+        </a>
+      </div>
+      <div class="follow">
+        <a href="paly.html">
+          <div class="icon-follow"></div>
+        </a>
+      </div>
+      <div class="login-registrtion">
+        <div class="login">
+          <a href="paly.html">
+            <p>登录</p>
+          </a>
+        </div>
+        <div class="registration">
+          <a href="paly.html">
+            <p>注册</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- 播放区 -->
+  <div class="body-module">
+    <div class="play clearfix">
+
+      <div class="videos-box">
+        <video width="1000" height="610" autoplay="autoplay" controls loop="loop" id="myvideo">
+              <!-- <source src="images/IMG_20180114_095346_mix01.mp4" type="video/mp4"> -->
+
+          </video>
+      </div>
+      <div class="videos-list">
+        <!-- <div class="cover"></div> -->
+        <div class="videos-list-title">接下来播放 </div>
+        <!-- <div class="videos-list">
+
+
+                </div> -->
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <a href="paly.html?name=03hd - 韩团艺人间互换歌曲表演舞台 现场版.mp4">
+                           <i class="fa fa-play-circle-o fa-3x"></i>
+                           <img src="http://img3.c.yinyuetai.com/video/mv/171226/0/e7e882c64c83586f51e412dc36c3097e_240x135.jpg?t=20171226180813" alt="">
+                           <p>為心導航</p>
+                           </a>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <a href="paly.html?name=05hd - 是宣美啊 法国旅行记E06 中字.mp4">
+                         <i class="fa fa-play-circle-o fa-3x"></i>
+                           <img src="http://img1.c.yinyuetai.com/video/mv/171208/0/c90d6dcf36ac33dfb2866376db377848_240x135.jpg?t=20171208171245" alt="">
+                           <p>司机哥哥的SWAG</p>
+                         </a>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <a href="paly.html?name=06hc - 宣美的旁边别随便站!去喔XD她的110cm大长腿真的让人招架不住.mp4">
+                         <i class="fa fa-play-circle-o fa-3x"></i>
+                           <img src="http://img2.c.yinyuetai.com/video/mv/171227/0/c4f5fb028f58330ae33be19e4eeeff42_240x135.jpg?t=20171227093735" alt="">
+                           <p>You Don’t Go</p>
+                         </a>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <a href="paly.html?name=03hd - 韩团艺人间互换歌曲表演舞台 现场版.mp4">
+                         <i class="fa fa-play-circle-o fa-3x"></i>
+                           <img src="http://img2.c.yinyuetai.com/video/mv/171117/0/-M-a1b2fade95e8ba4eb5a229dd3fff50a3_240x135.jpg?t=20171117170355" alt="">
+                           <p>Peek-A-Boo</p>
+                         </a>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <i class="fa fa-play-circle-o fa-3x"></i>
+                    <img src="http://img0.c.yinyuetai.com/video/mv/180119/0/-M-dd75e4b0463ee751481a7c5ebdcc39d2_240x135.jpg" alt="">
+                    <p>图片视频</p>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <i class="fa fa-play-circle-o fa-3x"></i>
+                    <img src="http://img0.c.yinyuetai.com/video/mv/180119/0/-M-dd75e4b0463ee751481a7c5ebdcc39d2_240x135.jpg" alt="">
+                    <p>图片视频</p>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <i class="fa fa-play-circle-o fa-3x"></i>
+                    <img src="http://img0.c.yinyuetai.com/video/mv/180119/0/-M-dd75e4b0463ee751481a7c5ebdcc39d2_240x135.jpg" alt="">
+                    <p>图片视频</p>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <i class="fa fa-play-circle-o fa-3x"></i>
+                    <img src="http://img0.c.yinyuetai.com/video/mv/180119/0/-M-dd75e4b0463ee751481a7c5ebdcc39d2_240x135.jpg" alt="">
+                    <p>图片视频</p>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <i class="fa fa-play-circle-o fa-3x"></i>
+                    <img src="http://img4.c.yinyuetai.com/video/mv/170908/0/fca6096118db968a22b9fda763711cc6_240x135.jpg?t=20170908171014" alt="">
+                    <p>如果你也想起我 中文版</p>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <i class="fa fa-play-circle-o fa-3x"></i>
+                    <img src="http://img0.c.yinyuetai.com/video/mv/180119/0/-M-dd75e4b0463ee751481a7c5ebdcc39d2_240x135.jpg" alt="">
+                    <p>图片视频</p>
+                  </div>
+                </a>
+              </div>
+              <div class="video-c-box">
+                <a href="#">
+                  <div class="video-c">
+                    <i class="fa fa-play-circle-o fa-3x"></i>
+                    <img src="http://img4.c.yinyuetai.com/video/mv/171030/0/-M-ca5b8b4c202308dace330ccae9454f3e_240x135.jpg" alt="">
+                    <p>MOVE Performance Video (Duo Ver.)</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Add Scroll Bar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="vadeos-name">
+      <a href="#">
+        <h1>视频名称 - 图片视频 -- 极客营</h1>
+        <p>次播放</p>
+        <p>111</p>
+      </a>
+    </div>
+    <div class="shareBox-paly-way">
+      <div class="shareBox">
+        <p>分享到：</p>
+        <div class="share-link">
+          <a class="wb-link" href="#"></a>
+          <a class="wx-link" href="#"></a>
+          <a class="kj-link" href="#"></a>
+          <a class="qq-link" href="#"></a>
+        </div>
+      </div>
+      <div class="paly-way">
+        <a href="#">
+            <i class="fa fa-mobile"></i>
+            <span>手机看</span>
+          </a>
+        <a href="#">
+            <i class="fa fa-star-o"></i>
+            <span>55</span>
+          </a>
+        <a href="#">
+            <i class="fa fa-thumbs-o-up"></i>
+            <span>33</span>
+          </a>
+        <a href="#">
+            <i class="fa fa-arrow-circle-o-down"></i>
+            <span>22</span>
+          </a>
+        <a href="#">
+            <i class="fa fa-exclamation-circle"></i>
+            <span>举报</span>
+          </a>
+      </div>
+    </div>
+  </div>
+  <div class="comment">
+    <div class="ad">
+      <img src="images/dt.jpg" />
+    </div>
+    <div class="p-content">
+      <div class="content-left">
+        <div class="recommendBox">
+          <h3>热播推荐</h3>
+          <div class="videoRecommend">
+            <div class="videoRecommend-libox">
+              <li>
+                <a href="paly.html?name=06hc - 宣美的旁边别随便站!去喔XD她的110cm大长腿真的让人招架不住.mp4">
+
+                                               <img src="http://img2.c.yinyuetai.com/video/mv/171207/0/-M-00564273c8b65fa3906e0cef784f8585_240x135.jpg" alt="">
+                                               <h5>Sleep 官方版</h5>
+                                               <p>王源</p>
+                                           </a>
+              </li>
+              <li>
+                <a href="paly.html?name=06hc - 宣美的旁边别随便站!去喔XD她的110cm大长腿真的让人招架不住.mp4">
+
+                                              <img src="http://img1.c.yinyuetai.com/video/mv/180109/0/-M-642e17713f47aaa9e99577f69d9d8db3_240x135.png" alt="">
+                                              <h5>V榜TOP10 2018 第1期 内地榜</h5>
+                                              <p>音悦V榜 张艺兴 王源 薛之谦 刘维</p>
+                                          </a>
+              </li>
+              <li>
+                <a href="paly.html?name=06hc - 宣美的旁边别随便站!去喔XD她的110cm大长腿真的让人招架不住.mp4">
+                                             <img src="http://img0.c.yinyuetai.com/video/mv/171228/0/-M-961cb9a1a93ed9735d9ccaa4f834e459_240x135.jpg" alt="">
+                                             <h5>FAST</h5>
+                                             <p>张杰&LOKEY低调组合</p>
+                                         </a>
+              </li>
+
+              <li>
+                <a href="paly.html?name=06hc - 宣美的旁边别随便站!去喔XD她的110cm大长腿真的让人招架不住.mp4">
+                                             <img src="http://img2.c.yinyuetai.com/video/mv/171226/0/-M-9a8cc27280dbc37ee8b7a2f1ecdead8c_240x135.jpg" alt="">
+                                             <h5>别 官方版</h5>
+                                             <p>薛之谦</p>
+                                         </a>
+              </li>
+              <li class="ml-0">
+                <a href="paly.html">
+                                            <img src="http://img3.c.yinyuetai.com/video/mv/180104/0/-M-6c3e03e0d4df0991c3c12b4c475fa986_240x135.jpg" alt="">
+                                            <h5>骆驼 官方版</h5>
+                                            <p>薛之谦</p>
+                                        </a>
+              </li>
+              <li>
+                <a href="paly.html">
+                                           <img src="http://img0.c.yinyuetai.com/video/mv/180104/0/-M-1349791edf652f03f3ede291c6a6c9cf_240x135.png" alt="">
+                                           <h5>音悦V榜2017年十二月内地榜单TOP10</h5>
+                                           <p>音悦V榜 张艺兴 王源 薛之谦 李斯丹妮</p>
+                                       </a>
+              </li>
+
+              <li>
+                <a href="paly.html">
+                                            <img src="http://img3.c.yinyuetai.com/video/mv/180104/0/-M-6c3e03e0d4df0991c3c12b4c475fa986_240x135.jpg" alt="">
+                                            <h5>骆驼 官方版</h5>
+                                            <p>薛之谦</p>
+                                        </a>
+              </li>
+              <li>
+                <a href="paly.html">
+                                              <img src="http://img1.c.yinyuetai.com/video/mv/180109/0/-M-642e17713f47aaa9e99577f69d9d8db3_240x135.png" alt="">
+                                              <h5>V榜TOP10 2018 第1期 内地榜</h5>
+                                              <p>音悦V榜 张艺兴 王源 薛之谦 刘维</p>
+                                          </a>
+              </li>
+
+
+
+            </div>
+            <div class="vi-prev"><a href="#"></a></div>
+            <div class="vi-next"><a href="#"></a></div>
+          </div>
+        </div>
+        <div class="guess-like-box">
+          <h3>猜你喜欢</h3>
+          <div class="guess-like-videoRecommend">
+            <div class="guess-like-libox">
+              <li>
+                <a href="paly.html?name=05hd - 是宣美啊 法国旅行记E06 中字.mp4">
+
+                                               <img src="http://img3.c.yinyuetai.com/video/mv/171229/0/432f2f31c3febf7affd598966f3ced5c_240x135.jpg?t=20171229220323" alt="">
+                                               <h5>韩国性感山脉 V榜特别企划EP199</h5>
+                                               <p>王源</p>
+                                           </a>
+              </li>
+              <li>
+                <a href="paly.html?name=05hd - 是宣美啊 法国旅行记E06 中字.mp4">
+
+                                              <img src="http://img1.c.yinyuetai.com/video/mv/171129/0/-M-128941d05a93d64a49185c8bbd8eb622_240x135.jpg" alt="">
+                                              <h5>EXO All Cut - 32nd Golden Disk Awards 金唱片 18/01/11</h5>
+                                              <p>EXO</p>
+                                          </a>
+              </li>
+              <li>
+                <a href="paly.html?name=05hd - 是宣美啊 法国旅行记E06 中字.mp4">
+                                             <img src="http://img4.c.yinyuetai.com/video/mv/171222/0/-M-3da73230b40c03b155eb6b45020dc9a0_240x135.jpg" alt="">
+                                             <h5>V榜TOP10 第53期 王源 & 王嘉尔 & Katy Perry&EXO & 渡边麻友</h5>
+                                             <p>音悦V榜</p>
+                                         </a>
+              </li>
+
+              <li>
+                <a href="paly.html?name=05hd - 是宣美啊 法国旅行记E06 中字.mp4">
+                                             <img src="http://img3.c.yinyuetai.com/video/mv/140630/2083657/80AE0146EAAC8F6D5DEE505C04745E20_240x135.jpg?t=20140630103901" alt="">
+                                             <h5>迪丽热巴、杨幂秀美腿,王源含笑半步癫,曾志伟展演技,幂幂智商好惊人</h5>
+                                             <p>杨幂</p>
+                                         </a>
+              </li>
+              <li class="ml-0">
+                <a href="paly.html">
+
+                                                 <img src="http://img2.c.yinyuetai.com/video/mv/171207/0/-M-00564273c8b65fa3906e0cef784f8585_240x135.jpg" alt="">
+                                                 <h5>Sleep 官方版</h5>
+                                                 <p>王源</p>
+                                             </a>
+              </li>
+              <li>
+                <a href="paly.html">
+
+                                                <img src="http://img1.c.yinyuetai.com/video/mv/180109/0/-M-642e17713f47aaa9e99577f69d9d8db3_240x135.png" alt="">
+                                                <h5>V榜TOP10 2018 第1期 内地榜</h5>
+                                                <p>音悦V榜 张艺兴 王源 薛之谦 刘维</p>
+                                            </a>
+              </li>
+              <li>
+                <a href="paly.html">
+                                               <img src="http://img0.c.yinyuetai.com/video/mv/171228/0/-M-961cb9a1a93ed9735d9ccaa4f834e459_240x135.jpg" alt="">
+                                               <h5>FAST</h5>
+                                               <p>张杰&LOKEY低调组合</p>
+                                           </a>
+              </li>
+
+              <li>
+                <a href="paly.html">
+                                               <img src="http://img2.c.yinyuetai.com/video/mv/171226/0/-M-9a8cc27280dbc37ee8b7a2f1ecdead8c_240x135.jpg" alt="">
+                                               <h5>别 官方版</h5>
+                                               <p>薛之谦</p>
+                                           </a>
+              </li>
+
+
+
+            </div>
+            <div class="ge-prev"><a href="#"></a></div>
+            <div class="ge-next"><a href="#"></a></div>
+          </div>
+          <div class="commtent">
+            <h3>所有评论(1)</h3>
+            <div class="review-area">
+              <div class="ra-icon">
+                <img src="http://s.c.yinyuetai.com/v2/images/base/ico/avatar.png" alt="">
+              </div>
+              <div class="">
+                <form class="search-input2" action="index.html" method="post">
+                  <input type="text" name="" value="">
+                </form>
+                <div class="fabu">
+                  <button type="button" name="button">发布</button>
+                </div>
+                <div class="sync">
+                  <div class="sync-sm">
+                  </div>
+                  <div class="sync-sm">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pinglun">
+            <p class="xz">时间</p>
+            <p>人气</p>
+          </div>
+        </div>
+      </div>
+      <div class="content-rigth">
+        <div class="infoBox">
+          <h3>视频信息</h3>
+        </div>
+        <div class="login-infor">
+          <img src="images/touxiang.jpg" alt="">
+          <div class="name">
+            <p>华语音悦Tai</p>
+            <h5>发布于2017-12-07 16:00:00</h5>
+          </div>
+        </div>
+        <div class="label">
+          <li><a href="#">陈晓</a></li>
+          <li><a href="#">鹿晗</a></li>
+          <li><a href="#">王源</a></li>
+          <li><a href="#">超清</a></li>
+          <li><a href="#">MV</a></li>
+        </div>
+        <div class="intrbox">
+          <p class="intr">12月7日,王源首支英文单曲《Sleep》MV惊喜上线。镜头里的王源心事内敛 ,却也尽展无畏。17岁锋芒初露,坦然自若。 的MV是王源的首支个人单曲MV,于洛杉矶拍摄,意境悠然,王源在镜头前自然展现,尽显前卫少年感。
+          </p>
+        </div>
+        <div class="vchart">
+          <h3>
+                   音悦V榜
+                   <a href="#"><img src="http://vchart.yinyuetai.com/vchart" width="20px" height="20px" alt=""></a>
+                 </h3>
+          <img src="http://img0.c.yinyuetai.com/video/mv/180111/0/-M-e205acd65153c2efb16eae34808620ca_640x360.jpg" alt="">
+
+
+          <div class="vchart_cur">
+            <img src="http://img0.c.yinyuetai.com/video/mv/180115/0/-M-929567b5059070bf313550cb5f64063b_240x135.jpg" alt="">
+            <div class="vchart_cur-r">
+              <div class="ms-name">
+                <p>一抹伤 官方版</p>
+                <p>--孙露</p>
+              </div>
+              <div class="ac-name">
+                <p class="c-g">32.17</p>
+                <p class="c-g">
+                  <i class="fa fa-arrow-up"></i> -0.234
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="vchart_cur">
+            <img src="http://img1.yytcdn.com/video/mv/180103/0/-M-489aa63f883979f556b67aac4cbb28f0_240x135.jpg" alt="">
+            <div class="vchart_cur-r">
+              <div class="ms-name">
+                <p>多肉 官方版</p>
+                <p>--刘维</p>
+              </div>
+              <div class="ac-name">
+                <p class="c-h">12.17</p>
+                <p class="c-h">
+                  <i class="fa fa-arrow-down c-h"></i> -0.134
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="vchart_cur">
+            <img src="http://img2.c.yinyuetai.com/video/mv/180118/0/-M-bb9eb2c2a27434b70c61752308ce252d_240x135.jpg" alt="">
+            <div class="vchart_cur-r">
+              <div class="ms-name">
+                <p>无常 官方版</p>
+                <p>--于湉</p>
+              </div>
+              <div class="ac-name">
+                <p class="c-h">1.17</p>
+                <p class="c-h">
+                  <i class="fa fa-arrow-down c-h"></i> -0.564
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div>
+
+
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-nav">
+      <ul class="footer-nav-ul">
+        <li><a href="play.html">关于我们</a></li>
+        <li><a href="play.html">人才招聘</a></li>
+        <li><a href="play.html">联系我们</a></li>
+        <li><a href="play.html">友情链接</a></li>
+        <li><a href="play.html">版权声明</a></li>
+        <li><a href="play.html">客服中心</a></li>
+      </ul>
+    </div>
+    <div class="copyrightbox">
+      <p class="copyright">
+        <span class="weng"><a href="#"><img src="images/culture.png" width="28px" height="28px" alt=""></a></span>Copyright © 2009 - 2018 yinyuetai.com 广播电视节目制作经营 许可证编号(京)字第1891号 | 京网文[2014]2037-287号
+      </p>
+      <p class="xkz">
+        <span class="guohui">
+                  <a href="#"><img src="http://s.yytcdn.com/v2/images/topbar/ghs.png" width="30px" height="30px" alt=""></a>
+                </span> 京网文[2014]2037-287号 | 京ICP备11024134号-1 | 京ICP证060716号 | 出版物经营许可证 | 增值电信业务经营许可证B2-20140501
+        <span class="gongshang">
+                    <a href="#"><img src="http://s.yytcdn.com/images/biaoshi.gif" width="48px" height="58px" alt=""></a>
+                  </span>
+      </p>
+    </div>
+
+  </div>
+  <img class="upto" title="返回顶部" src="images/returntop.png" alt="">
+  <div id="snow1"></div>
+  <div id="snow2"></div>
+  <div id="snow3"></div>
+  <div id="snow4"></div>
+  <script type="text/javascript" src="js/play.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper-4.1.0.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      slidesPerView: 'auto',
+      freeMode: true,
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+      mousewheel: true,
+    });
+  </script>
+</body>
+
+</html>
